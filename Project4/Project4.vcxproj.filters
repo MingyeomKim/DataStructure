@@ -25,14 +25,20 @@
     <Filter Include="소스 파일\HW4">
       <UniqueIdentifier>{7c283f3b-6672-4e76-a8df-320fdd6adf87}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Sorting">
-      <UniqueIdentifier>{c076d484-e6da-450f-b0f8-19a67dce3390}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\1 Functions">
       <UniqueIdentifier>{f5be57a1-7c15-47e5-b7c5-c7f115000f52}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\2 Pointer And Arrray">
       <UniqueIdentifier>{fd1caec5-ef28-47b6-9bb7-3fcf716f1021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4 Inheritance">
+      <UniqueIdentifier>{88059948-9d00-4d2a-9a7e-3275c4ff5bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sorting">
+      <UniqueIdentifier>{c076d484-e6da-450f-b0f8-19a67dce3390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7 Operator Overloading">
+      <UniqueIdentifier>{e8d1f59d-d6d0-4e1a-a563-ce72babfd4fc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -87,23 +93,53 @@
     <ClCompile Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\Sorting\selectSort.cpp">
       <Filter>소스 파일\Sorting</Filter>
     </ClCompile>
-    <ClCompile Include="factorial.cpp">
-      <Filter>소스 파일\1 Functions</Filter>
-    </ClCompile>
-    <ClCompile Include="Hanoi.cpp">
-      <Filter>소스 파일\1 Functions</Filter>
-    </ClCompile>
-    <ClCompile Include="fivonacci.cpp">
-      <Filter>소스 파일\1 Functions</Filter>
-    </ClCompile>
-    <ClCompile Include="pointer1.cpp">
+    <ClCompile Include="2 Pointer And Array\pointer1.cpp">
       <Filter>소스 파일\2 Pointer And Arrray</Filter>
     </ClCompile>
-    <ClCompile Include="pointer2.cpp">
+    <ClCompile Include="2 Pointer And Array\pointer2.cpp">
       <Filter>소스 파일\2 Pointer And Arrray</Filter>
     </ClCompile>
-    <ClCompile Include="pointer3.cpp">
+    <ClCompile Include="2 Pointer And Array\pointer3.cpp">
       <Filter>소스 파일\2 Pointer And Arrray</Filter>
+    </ClCompile>
+    <ClCompile Include="1 Functions\factorial.cpp">
+      <Filter>소스 파일\1 Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="1 Functions\fivonacci.cpp">
+      <Filter>소스 파일\1 Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="1 Functions\Hanoi.cpp">
+      <Filter>소스 파일\1 Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="소스3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>소스 파일\2 Pointer And Arrray</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference Funtion.cpp">
+      <Filter>소스 파일\2 Pointer And Arrray</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer and const.cpp">
+      <Filter>소스 파일\2 Pointer And Arrray</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer.cpp">
+      <Filter>소스 파일\2 Pointer And Arrray</Filter>
+    </ClCompile>
+    <ClCompile Include="2 Pointer And Array\pointer and string.cpp">
+      <Filter>소스 파일\2 Pointer And Arrray</Filter>
+    </ClCompile>
+    <ClCompile Include="4 Inheritance\protected.cpp">
+      <Filter>소스 파일\4 Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="7 Operator Overloading\plus operator.cpp">
+      <Filter>소스 파일\7 Operator Overloading</Filter>
+    </ClCompile>
+    <ClCompile Include="7 Operator Overloading\ostream operator.cpp">
+      <Filter>소스 파일\7 Operator Overloading</Filter>
+    </ClCompile>
+    <ClCompile Include="7 Operator Overloading\assign operator.cpp">
+      <Filter>소스 파일\7 Operator Overloading</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
