@@ -40,6 +40,12 @@
     <Filter Include="소스 파일\7 Operator Overloading">
       <UniqueIdentifier>{e8d1f59d-d6d0-4e1a-a563-ce72babfd4fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3 &amp; 4 Analysis of Algorithms">
+      <UniqueIdentifier>{a60be3df-4ee0-40ff-a112-7532f82da01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5 Stacks, Queues, and Deques">
+      <UniqueIdentifier>{92d45a26-67cc-49cf-8c6c-da0c231afa82}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw1\Driver.cpp">
@@ -62,15 +68,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw2\main.cpp">
       <Filter>소스 파일\HW2</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw3\ArrayVector.cpp">
-      <Filter>소스 파일\HW3</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw3\DLinkedList.cpp">
-      <Filter>소스 파일\HW3</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw3\Driver.cpp">
-      <Filter>소스 파일\HW3</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw4\Driver.cpp">
       <Filter>소스 파일\HW4</Filter>
@@ -111,15 +108,6 @@
     <ClCompile Include="1 Functions\Hanoi.cpp">
       <Filter>소스 파일\1 Functions</Filter>
     </ClCompile>
-    <ClCompile Include="소스3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Reference.cpp">
-      <Filter>소스 파일\2 Pointer And Arrray</Filter>
-    </ClCompile>
-    <ClCompile Include="Reference Funtion.cpp">
-      <Filter>소스 파일\2 Pointer And Arrray</Filter>
-    </ClCompile>
     <ClCompile Include="pointer and const.cpp">
       <Filter>소스 파일\2 Pointer And Arrray</Filter>
     </ClCompile>
@@ -141,6 +129,36 @@
     <ClCompile Include="7 Operator Overloading\assign operator.cpp">
       <Filter>소스 파일\7 Operator Overloading</Filter>
     </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>소스 파일\7 Operator Overloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference Funtion.cpp">
+      <Filter>소스 파일\7 Operator Overloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="power.cpp">
+      <Filter>소스 파일\3 &amp; 4 Analysis of Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms.cpp">
+      <Filter>소스 파일\3 &amp; 4 Analysis of Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="HW3\ArrayVector.cpp">
+      <Filter>소스 파일\HW3</Filter>
+    </ClCompile>
+    <ClCompile Include="HW3\DLinkedList.cpp">
+      <Filter>소스 파일\HW3</Filter>
+    </ClCompile>
+    <ClCompile Include="HW3\Driver.cpp">
+      <Filter>소스 파일\HW3</Filter>
+    </ClCompile>
+    <ClCompile Include="5 Stacks, Queues, and Deques\StockSpanAlgorithm.cpp">
+      <Filter>소스 파일\5 Stacks, Queues, and Deques</Filter>
+    </ClCompile>
+    <ClCompile Include="5 Stacks, Queues, and Deques\Stack.cpp">
+      <Filter>소스 파일\5 Stacks, Queues, and Deques</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw1\DVD.h">
@@ -161,26 +179,23 @@
     <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw2\runtime_exception.h">
       <Filter>소스 파일\HW2</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw3\ArrayVector.h">
-      <Filter>소스 파일\HW3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw3\DLinkedList.h">
-      <Filter>소스 파일\HW3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw3\DNode.h">
-      <Filter>소스 파일\HW3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw3\IndexOutOfBounds.h">
-      <Filter>소스 파일\HW3</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw3\Stack.h">
-      <Filter>소스 파일\HW3</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw4\ArrayVector.h">
       <Filter>소스 파일\HW4</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\Desktop\인하대학교\2-2\자료구조(최원익)\DataStructure\hw4\SortAlgorithm.h">
       <Filter>소스 파일\HW4</Filter>
+    </ClInclude>
+    <ClInclude Include="HW3\ArrayVector.h">
+      <Filter>소스 파일\HW3</Filter>
+    </ClInclude>
+    <ClInclude Include="HW3\DLinkedList.h">
+      <Filter>소스 파일\HW3</Filter>
+    </ClInclude>
+    <ClInclude Include="HW3\DNode.h">
+      <Filter>소스 파일\HW3</Filter>
+    </ClInclude>
+    <ClInclude Include="HW3\Stack.h">
+      <Filter>소스 파일\HW3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
