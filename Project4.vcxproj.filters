@@ -135,9 +135,6 @@
     <ClCompile Include="Reference Funtion.cpp">
       <Filter>소스 파일\7 Operator Overloading</Filter>
     </ClCompile>
-    <ClCompile Include="Driver.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="power.cpp">
       <Filter>소스 파일\3 &amp; 4 Analysis of Algorithms</Filter>
     </ClCompile>
@@ -157,6 +154,12 @@
       <Filter>소스 파일\5 Stacks, Queues, and Deques</Filter>
     </ClCompile>
     <ClCompile Include="5 Stacks, Queues, and Deques\Stack.cpp">
+      <Filter>소스 파일\5 Stacks, Queues, and Deques</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5 Stacks, Queues, and Deques\postfix.cpp">
       <Filter>소스 파일\5 Stacks, Queues, and Deques</Filter>
     </ClCompile>
   </ItemGroup>
