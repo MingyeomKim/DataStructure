@@ -20,7 +20,7 @@ Shape::Shape(const Shape& s)
 	cout << "복사 생성자 호출" << endl;
 	price = s.price;
 	owner = new char[strlen(s.owner) + 1];
-	strcpy(owner, s.owner);
+	//strcpy(owner, s.owner);
 }
 
 Shape::Shape(int _id, int don, double x, double y, char* s) {
@@ -30,7 +30,7 @@ Shape::Shape(int _id, int don, double x, double y, char* s) {
 	this->x = x;
 	this->y = y;
 	owner = new char[strlen(s) + 1];
-	strcpy(owner, s);
+	//strcpy(owner, s);
 }
 
 // 이거 중요함 !!
@@ -48,7 +48,7 @@ Shape& Shape::operator=(const Shape& s) {
 	// 이미 할당된 메모리 ("you")해제
 
 	owner = new char[strlen(s.owner) + 1];
-	strcpy(owner, s.owner);
+	//strcpy(owner, s.owner);
 	return *this;
 }
 
